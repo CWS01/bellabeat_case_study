@@ -1,5 +1,5 @@
 # How Can a Wellness Technology Company Play it Smart?
-### The Google Data Analytics Professional Capstone Project
+### The Google Data Analytics Professional Certificate Capstone Project
 
 ## Background
 
