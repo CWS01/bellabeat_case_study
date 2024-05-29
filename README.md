@@ -46,6 +46,21 @@ To begin with exploring the different CSV files that were included with this dat
 3. Inspect other columns in the files.
 4. As no times are provided in the SleepDay column, the column will be transformed from a datetime format to a date format.
 5. The Id column in all files to be explored will be switched from numeric format to text format as these numbers are not needed to make any calculations.
+
+#### R
+To continue with data cleaning, the mdoified CSV files were uploaded to RStudio where they could be further examined.
+1. To start, the `tidyverse` package and the `janitor` package were loaded into the workspace.
+2. The clean_names function from the janitor package was applied to the column names of the different data frames. This transformed the names to lowercase and separated the words by an underscore.
+3. Each column containing date information was renamed to "date" and formatting was applied such that each date appeared the same.
+   
+   Example: <br>
+    ```
+    fitbit_data <- clean_names(fitbit_data) %>%
+      mutate_at(vars(id), as.character) %>% 
+      rename("date"="activity_date") %>% 
+      mutate_at(vars(date), as.Date, format = "%m/%d/%y")
+    ```
+
 ## Analyze
 
 ## Share
