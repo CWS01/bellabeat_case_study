@@ -34,8 +34,18 @@ The data source used in this case study was a publicly available data set availa
 * The biggest limitation of this data is that it is from 2016, making it more than five years old and outside of the accepted "current" range. It is important to note this limitation when providing recommendations.
 * A second limitation of this data is the relatively small sample size. Although 30 is typically the minimum allowable sample size for statistical testing to result in meaningful results, a bigger sample size can always be relied on for more trustworthy results.
 * For the information on user weight, only 11 individuals appear to have entered information regarding weight between March 12th and April 11th and only eight users appear to have entered information regarding weight between April 12th and May 12th. Of these 11 (8) users, most of the weight information was entered manually and thus bias and human error must be considered in this case.
+* Some files only appear for one of the date ranges. Specifically, this happens for the `sleepDay_merged.csv` file which will be explored as part of this analysis. Due to this it is important to note that only one month worth of sleep data will be analyzed to draw conclusions. 
 ## Process
-
+### Data Files to be Explored
+In this case, multiple CSV files were included in the downloaded dataset. Our goal for this project is to analyze trends in smart device usage and apply these findings to make recommendations about Bellabeat products and marketing. With this in mind it is important to determine which information will be the most useful to achieve these goals. First, the `dailyActivity_merged.csv` file will be explored as this provides a general overview to the fitness activity of the users. Second, the `sleepDay_merged.csv` file will be explored as this provides information into how the users are using their devices to track their sleep patterns. __(Note: there is only sleep data recorded from April to May)__
+### Data Cleaning
+#### Excel
+To begin with exploring the different CSV files that were included with this dataset, Excel will be used to complete an initial pass through.
+1. Open the `dailyActivity_merged.csv` file. Apply a filter to all columns and check for blank values. Result: No blank values found.
+2. Repeat step 1 for the `sleepDay_merged.csv` file. Result: no blank values found.
+3. Inspect other columns in the files.
+4. As no times are provided in the SleepDay column, the column will be transformed from a datetime format to a date format.
+5. The Id column in all files to be explored will be switched from numeric format to text format as these numbers are not needed to make any calculations.
 ## Analyze
 
 ## Share
