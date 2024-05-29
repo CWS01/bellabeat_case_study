@@ -27,7 +27,13 @@ Analyze smart device usage data from non-Bellabeat smart devices to gain insight
 3. How could these trends influence Bellabeat marketing strategy?
 
 ## Prepare
+### Data Source
+The data source used in this case study was a publicly available data set available on Kaggle titled __FitBit Fitness Tracker Data__. The data contained in this dataset was that of 30 eligible and consenting FitBit users that responded to a survey distributed via Amazon Mechanical Turk between the dates of March 12, 2016 and May 12, 2016. Each of the participants consented to the submission of their personal fitness tracking data which included physical activity, heart rate, and sleep monitoring data. The data set contains 30 CSV files and was last updated three months ago.
 
+#### Limitations
+* The biggest limitation of this data is that it is from 2016, making it more than five years old and outside of the accepted "current" range. It is important to note this limitation when providing recommendations.
+* A second limitation of this data is the relatively small sample size. Although 30 is typically the minimum allowable sample size for statistical testing to result in meaningful results, a bigger sample size can always be relied on for more trustworthy results.
+* For the information on user weight, only 11 individuals appear to have entered information regarding weight between March 12th and April 11th and only eight users appear to have entered information regarding weight between April 12th and May 12th. Of these 11 (8) users, most of the weight information was entered manually and thus bias and human error must be considered in this case.
 ## Process
 
 ## Analyze
