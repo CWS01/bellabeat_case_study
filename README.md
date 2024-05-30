@@ -60,6 +60,18 @@ To continue with data cleaning, the mdoified CSV files were uploaded to RStudio 
       rename("date"="activity_date") %>% 
       mutate_at(vars(date), as.Date, format = "%m/%d/%y")
     ```
+4. The newly combined dataset must then be checked for duplicates to ensure that no entries are being counted twice. Additionally, the number of NA columns was explored and the number of IDs for each dataset was found.
+
+   ```
+   combined_data <- combined_data[!duplicated(combined_data), ]
+   sum(is.na(combined_data))
+   n_distinct(combined_data$id)
+   n_distinct(sleep_data$id)
+   n_distinct(weight_loss_data$id)
+   n_distinct(fitbit_data$id)
+   ```
+   
+__Note__: The final dataset had 940 observations of 25 different variables. Of these possible 23,500 entries, 6893 of them were found to be NA. There were 33 distinct IDs found in the `combined_data` table, aligning with the number of distinct IDs found in the `dailyActivity_merged.csv` file. There were 24 distinct IDs found in the `sleepDay_merged.csv` file and only eight distinct IDs were found in the `weightLoginfo_merged.csv` file. This already points to a trend in the fitness tracker usage. __People are most likely to use their device throughout the course of the day, they are less likely to use their device to monitor sleep, and they are even less likely to use their device to monitor weight.__
 
 ## Analyze
 
