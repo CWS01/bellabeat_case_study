@@ -75,6 +75,26 @@ __Note__: The final dataset had 940 observations of 25 different variables. Of t
 
 ## Analyze
 
+### Initial Exploration
+1. To start, some key fields were selected and the summary statistics for these fields were generated. This was the result:
+   
+   <img width="719" alt="Screenshot 2024-05-30 at 1 47 22 PM" src="https://github.com/CWS01/bellabeat_case_study/assets/148288624/3589c4da-2e3a-440b-a8b1-8485987e3234">
+
+   Here it can be seen that on average users take 7638 steps a day and cover around 5.490 miles worth of distance. Looking at the different regimes of activity (very active, fairly active, lightly          active, and sedentary), one can see that majority of time is spent sedentary. Specifically, about 2% of a users time is spent being very active, about 1% of a users time is spent being fairly active,    about 16% of a users time is spent being lightly active, and about 81% of a users time is spent being sedentary. Users were found to sleep for an average of 419 minutes, or 7 hours, per night, while     spending a total of 459 minutes, or 7.6 hours, in bed per night. Lastly, users who recorded their weight had an average weight in pounds of 158.8 and an average body mass index (BMI) of 25.19. It is     again important to poiint out that opnly eight users utilized the weight tracking feature of their fitness device and thus these two fields saw a total of 873 NAs.
+
+2. Next, the amount of total steps taken by all users was plotted as a function of the day of the week. This sought to gain insight into whether there were certain days of the week where individuals seemed to be more active.
+
+   ![TotalStepsvsDayofWeek](https://github.com/CWS01/bellabeat_case_study/assets/148288624/824c7253-1d16-4a24-ad82-565a9fea90df)
+
+   In the above bar graph, one can observe that individuals tend to take more steps during the middle of the week with a peak seen on Tuesday and taper off both moving towards the start of the week and     moving towards the end of the week. With this in mind, one would expect to see the same trend in total active minutes (very active minutes + fairly active minutes + lightly active minutes).
+
+3. The total active minutes was then plotted as a function of the day of the week.
+
+   ![ActiveMinutesvsDayofWeek](https://github.com/CWS01/bellabeat_case_study/assets/148288624/37849337-310c-40a8-83f5-bd82a26d1f65)
+
+   A similar trend to the total steps as function of the day of the week was seen with the total active minutes peaking towards the middle of the week, speicifcally on Tuesday, and tapers being seen        both towards the start of the week and the end of the week.
+
+   
 ## Share
 
 ## Ask
