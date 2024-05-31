@@ -94,7 +94,25 @@ __Note__: The final dataset had 940 observations of 25 different variables. Of t
 
    A similar trend to the total steps as function of the day of the week was seen with the total active minutes peaking towards the middle of the week, speicifcally on Tuesday, and tapers being seen        both towards the start of the week and the end of the week.
 
-   
+4. Next, the distribution of the total minutes spent asleep and the total active minutes distribution was visualized.
+
+   ![TotalMinutesAsleepDistribution](https://github.com/CWS01/bellabeat_case_study/assets/148288624/d4a728bc-1f13-4881-9e67-1dfe4f428600)
+   ![TotalActiveMinutesDistribution](https://github.com/CWS01/bellabeat_case_study/assets/148288624/abd4a434-f4ae-4a90-aca6-cbe9e8c4af86)
+
+   The distribution of the total minutes asleep appears to show that most people spend between 300 to 500 minutes, or 5 to 8.3 hours, asleep each night. The distribution of the total active minutes appears to show that most people spend between 200 to 400 minutes, or 3.33 to 6.67 hours, in an active state.
+
+5. Now, we can compare these two metrics in a scatterplot to see if a relationship exists.
+
+   ![TotalAcvtivevsTotalAsleep](https://github.com/CWS01/bellabeat_case_study/assets/148288624/bac49a4d-0bdf-47c9-bb22-ab4a44e8af91)
+
+   As seen in the graph, there does not appear to be much of a relationship between the two variables with most of the values centralized in the locations mentioned prior. Calculation of the correlation coefficient between these two variables results in a small negative value (-0.06929) indicating that when total minutes asleep increases, there may be small decrease in total actove minutes. This is likely due to the fact that when you spend more time asleep, you have less time to be active throughout the course of the day.
+
+6. The last item looked at was logged activity distance as a function of the day of the week. This offers insight into when users are actually exercising, as logged activity means the user chose to record the activity, and could provide insight into when is the best time to run marketing advertisements.
+
+   ![LoggedActivityvsWeekday](https://github.com/CWS01/bellabeat_case_study/assets/148288624/3cac616d-9c1d-4f8b-8a55-1fe2a52da906)
+
+   The above bar chart shows that users only logged activities between Monday and Friday with no users logging any activities over the weekend. This is rather interesting as one may expect users to log more activities when they have more free time (i.e. on the weekend) and not when they have other obligations (i.e. work, school) but in this data set, the opposite trend was observed.
+
 ## Share
 
 ## Ask
