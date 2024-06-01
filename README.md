@@ -115,4 +115,6 @@ __Note__: The final dataset had 940 observations of 25 different variables. Of t
 
 ## Share
 
+See the case study dashboard here: [Bellabeat Case Study](https://public.tableau.com/views/Bellabeat_Case_Study_17171854499110/BellabeatDashboard?:language=en-US&publish=yes&:sid=&:display_count=n&:origin=viz_share_link)
+
 ## Ask
