@@ -1,3 +1,4 @@
+```
 library(tidyverse)
 library(janitor)
 
@@ -88,3 +89,4 @@ ggplot(data=combined_data, aes(x=weekday, y=logged_activities_distance)) +
   labs(title="Logged Activity Distance vs. Day of the Week", x="Weekday", y="Logged Activity Distance")
 
 write_csv(combined_data, file="combined_data.csv")
+```
