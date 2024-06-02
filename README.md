@@ -28,7 +28,7 @@ Analyze smart device usage data from non-Bellabeat smart devices to gain insight
 
 ## Prepare
 ### Data Source
-The data source used in this case study was a publicly available data set available on Kaggle titled __FitBit Fitness Tracker Data__. The data contained in this dataset was that of 30 eligible and consenting FitBit users that responded to a survey distributed via Amazon Mechanical Turk between the dates of March 12, 2016 and May 12, 2016. Each of the participants consented to the submission of their personal fitness tracking data which included physical activity, heart rate, and sleep monitoring data. The data set contains 30 CSV files and was last updated three months ago.
+The data source used in this case study was a publicly available data set available on Kaggle titled __FitBit Fitness Tracker Data__ uploaded by user Mobius. The data contained in this dataset was that of 30 eligible and consenting FitBit users that responded to a survey distributed via Amazon Mechanical Turk between the dates of March 12, 2016 and May 12, 2016. Each of the participants consented to the submission of their personal fitness tracking data which included physical activity, heart rate, and sleep monitoring data. The data set contains 30 CSV files and was last updated three months ago.
 
 #### Limitations
 * The biggest limitation of this data is that it is from 2016, making it more than five years old and outside of the accepted "current" range. It is important to note this limitation when providing recommendations.
